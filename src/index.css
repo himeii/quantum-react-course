@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Muli", sans-serif;
+}
+
+input {
+  font-family: "Muli";
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px #e1e1e1 solid;
+  font-size: 30px;
+  margin: 20px;
+}
+
+*:focus {
+  outline: none;
+  border-color: #96e6a1;
+}
+
+.edit-form,
+.about-me {
+  width: 50vw;
+  display: inline-flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 2s ease;
+}
+
+.edit-form input {
+  width: 90%;
+}
+
+.about-me.approved {
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+}
+
+.about-me {
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+
+.about-me li {
+  list-style-type: none;
+}
+
+.about-me button {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 3px #fff solid;
+  max-height: 40px;
+}
