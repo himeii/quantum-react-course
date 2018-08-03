@@ -7,7 +7,7 @@ class AboutMe extends Component {
 
   render() {
     //React doesn't see the technology prop, fix this.
-    const { name, surname, technology, approved } = this.props;
+    const { name, surname, approved } = this.props;
     return (
       <div className={`about-me ${approved ? "approved" : ""}`}>
         <p>My name is: {name}!</p>
